@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FiFa</title>
-
-    <link rel="stylesheet" href="CSS.css">
+    <title>FIFA</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,65 +16,63 @@
 
 <body>
 
-    <section class="headline">
-        <div class="large-content">
-            <h1>The Greatest Show on Earth</h1>
-            <div class="small-content">
-                <p>The FIFA World Cup 2022 begins on 20th November</p>
-            </div>
-            <button class="color-button">
-                <p>Watch Live</p>
-            </button>
-        </div>
-        <div class="Marcelo-image">
-            <img src="Banner Image.png" alt="Marcelo" width="450" height="512">
-        </div>
+    <header>
+        <h1 class="site-title">FIFA World Cup</h1>
+        <p class="site-description">The Greatest Show on Earth</p>
+        <p class="event-date">Begins on 20th November 2022</p>
+        <button class="watch-live-btn">Watch Live</button>
+    </header>
+
+    <section class="upcoming-match">
+        <h2 class="section-title">Upcoming Match</h2>
+        <!-- Content for upcoming match goes here -->
     </section>
 
-    <section class="second-part-content">
-        <div class="box-one">
-            <p class="box-one-content">Upcoming Match</p>
-        </div>
-        <div class="box-two">
-            <p class="box-two-content">All Groups</p>
-        </div>
-        <div class="box-three">
-            <p class="box-three-content">Blog</p>
-        </div>
+    <section class="all-groups">
+        <h2 class="section-title">All Groups</h2>
+        <!-- Content for all groups goes here -->
     </section>
 
-    <section class="Content-part-two">
-        <div class="World-Cup-content">
-            <div class="single-box-image">
-                <img src="Blog Image.png" height="160px" width="160px">
-            </div>
-            <div class="box-inside-content">
-                <button class="Ticket-Button">View Tickets</button>
-                <p>Bra v Arg</p>
-                <div class="small-box">
-                    <img src="Time Icon.png" alt="icon" height="20" width="20">
-                    <p class="small-box-content">10 h </p>
-                    <img src="Chat Icon.png" alt="icon" height="20" width="20">
-                    <p class="small-box-content">40</p>
-                </div>
-            </div>
-        </div>
-        <!-- Repeat the above structure for other World Cup contents with necessary changes -->
+    <section class="blog">
+        <h2 class="section-title">Blog</h2>
+        <!-- Content for blog goes here -->
     </section>
 
-    <section class="Footer">
-        <h1 class="footer-header">Goal</h1>
-        <hr class="horizontal-line">
-        <div class="footer-content">
-            <p>Contact us</p>
-            <p>Terms of Service</p>
-            <p>Privacy Policy</p>
-            <p>Privacy Settings</p>
-            <p>Goal App</p>
-            <p>Goal Live</p>
+    <section class="matches">
+        <h2 class="section-title">Matches</h2>
+        <div class="match-cards">
+            <!-- Content for match cards goes here -->
         </div>
-        <p>Copyright © 2022 Goal. All rights reserved</p>
+        <!-- Repeat the match cards section for each match -->
     </section>
+
+    <section class="carts">
+        <h2 class="section-title">Carts</h2>
+        <div class="cart-grid">
+            <!-- Content for carts goes here -->
+            <div class="cart">
+                <h3 class="cart-title">Match Schedule</h3>
+                <p class="teams">Team A vs Team B</p>
+                <p class="cart-time">10:00 AM</p>
+                <p class="cart-comments">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <!-- Repeat the cart structure for each cart -->
+        </div>
+        <p class="total-comments">Total Comments: 9</p>
+    </section>
+
+    <footer>
+        <h2 class="footer-title">Goal</h2>
+        <div class="footer-links">
+            <a href="#">Contact Us</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Privacy Settings</a>
+            <a href="#">Goal App</a>
+            <a href="#">Goal Live</a>
+        </div>
+        <p class="copyright">Copyright © 2022 Goal. All rights reserved</p>
+    </footer>
 
 </body>
 
